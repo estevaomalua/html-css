@@ -1,0 +1,94 @@
+@charset "UTF-8";
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+:root{
+    --fonte-destaque: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fonte-principal:'cursive';
+   
+ }
+ body{
+    margin: auto;
+    min-width: 200px;
+    max-width: 1250px;
+    min-height: 100vh;
+    background-color: rgba(14, 13, 13, 0.902);
+ }
+ header{
+    font-family: var(--fonte-destaque);
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: 6vh;
+ }
+ header > p{
+    padding-bottom: 50px;
+ }
+ header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+ header a:hover, footer a:hover{
+    text-decoration: underline;
+ }
+ section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+ }
+ section.norma1{
+
+    background-color: white;
+   
+ }
+ section.norma2> p{
+     background-color:  rgba(0, 0, 0, 0.255);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+ }
+ section.norma4 > p{
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.255);
+    display: inline-block;
+    padding: 10px;
+    
+ }
+ section.norma3{
+     background-color: white;
+ }
+ section.norma5{
+     background-color: white;
+ }
+section p{
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+}
+section#imagens1{
+    background-image: url(../imagens/background001.jpg);
+     background-position: right center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+section#imagens2{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.642);
+    background-image: url(../imagens/background002.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+   text-align: center;
+    background-color: black;
+    color: white;
+     padding: 10px;
+  font-family: var(--fonte-destaque);
+}

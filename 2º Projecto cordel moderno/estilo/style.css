@@ -1,0 +1,96 @@
+@charset "TFF-8";
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+:root{
+    --cor-princiapl: #c874d9;
+    --cor-destaque:  #c1a471;
+
+    --fonte-destaque:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fonte-principal: 'cursive';
+}
+body{
+    background-color: var(--cor-destaque);
+    height: 100vh;
+    font-family: cursive;
+}
+header{
+    background-color: var(--cor-destaque);
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+header > h1{
+    font-weight: bolder;
+    font-size: 3em;
+    padding-top: 50px;
+}
+header > p{
+    padding-bottom: 50px;
+    font-size: 2em;
+}
+header a{
+    
+    color: white;
+    text-decoration: none;
+
+}
+header p > a:hover{
+    color: var(--cor-princiapl);
+    text-decoration: underline; 
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+section  p{
+    padding: 12px;
+}
+section.sessao1{
+   
+    background-color: white;
+}
+section.sessao2{
+   
+    background-image: url(../imagens/background001.jpg); 
+    background-position: right center;
+     background-size: cover;
+     color: white;
+     background-attachment: fixed;
+}
+section.sessao4{
+     box-shadow: inset 6px 6px  6px rgba(0, 0, 0, 0.427);
+    background-image: url(../imagens/background002.jpg);
+    background-position: left center;
+    background-size: cover;
+     color: white;
+     background-attachment: fixed;
+}
+section.sessao2 > p{
+     display: inline-block;
+    background-color:#e4c2cf5f;
+      
+}
+
+section.sessao4> p {
+    display: inline-block;
+    background-color: #e4c2cf53;    
+}
+
+
+section.sessao3{
+    background-color: white;
+}
+section.sessao5{
+    background-color: white;
+}
+footer p{
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+
